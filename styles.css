@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: #FDE2F3;
+    
+}
+.title{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: #04739f;
+    margin: 45px auto;
+}
+h1{
+    color: #baebff;
+}
+div{
+    padding: 10px;;
+}
+a{
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;;
+    background-color: rgb(1, 51, 68);
+}
+.links{
+    padding: 5px;
+    background-color: #0A4D68;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin: auto 10px;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(1, 51, 68);
+    color: aliceblue;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+    margin:5px 10px 0;
+}
