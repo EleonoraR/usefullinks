@@ -36,9 +36,14 @@ a{
 footer{
     background-color: rgb(1, 51, 68);
     color: aliceblue;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     text-align: center;
     padding: 20px 0;
     margin:5px 10px 0;
+}
+@media screen and (max-width:450px) {
+    footer{
+         font-size: 0.5rem;
+          }
 }
