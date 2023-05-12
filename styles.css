@@ -7,8 +7,18 @@ body{
     font-family: 'Sacramento', cursive;
     text-align: center;
     font-size: 2rem;
-    color: #04739f;
-    margin: 45px auto;
+    color: #ffffff;
+    margin: 50px auto;
+    width: 50%;
+    background-color: rgb(0, 19, 12);
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.main-container{
+    width: 85%;
+    margin: auto;
+
 }
 h1{
     color: #baebff;
@@ -40,10 +50,16 @@ footer{
     text-transform: uppercase;
     text-align: center;
     padding: 20px 0;
-    margin:5px 10px 0;
+}
+.container:hover{
+    background-color: rgb(0, 116, 154);
+}
+.title:hover{
+    background-color: rgb(3, 164, 218);
 }
 @media screen and (max-width:450px) {
     footer{
          font-size: 0.5rem;
           }
 }
+
